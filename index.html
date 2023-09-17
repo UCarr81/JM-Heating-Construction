@@ -104,7 +104,7 @@ th means Table Heading-->
         <td>Freetime</td>
     </tr>
    </table>
-
+<!--With CSS element but in HTML Form-->
    <table border="1" bgcolor="gray" width="400" cellpadding="10" cellspacing="5">
     <tr>
         <th width="150"></th>
@@ -126,6 +126,77 @@ th means Table Heading-->
         <td bgcolor="white">Freetime</td>
     </tr>
    </table>
+<!--Input forms a variety-->
+<form action="http://www.example.com/subscribe.php" method="get">
+    <p>This is where the form control appears</p>
+</form>
 
+<!--Max length is the length of how many words can be inputed-->
+<form action="http://www.example.com/login.php">
+    <p>Username
+    <input type="text" name="usernamer" size="15" maxlength="15">
+</P>
+<p>Password
+    <input type="password" name="password" size="15" maxlength="15">
+</p>
+</form>
+
+<form>
+    <p>Make a comment</p>
+    <textarea name="comments" cols="20" row="4" placeholder="Comment"></textarea>
+</form>
+<!--Used for single choice questions-->
+<form>
+    <p>Play a non Working game
+    <input type="radio" name="genre" value="rock"/>Rock
+    <input type="radio" name="genre" value="paper"/>Paper
+    <input type="radio" name="genre" value="scissors"/> scissors
+    </p>
+</form>
+
+<!--Used for Multiple choice questions-->
+<form>
+    <p>Best music?
+        <input type="checkbox" name="services" value="Itunes"/>Itunes
+        <input type="checkbox" name="services" value="Spotify"/>Spotify
+        <input type="checkbox" name="services" value="Radio"/>Radio
+    </p>
+</form>
+
+<!--Mutliple select list box size means how many words will be shown before scrolling Multiple allows for multiple choices if only one is required simply delete multiple-->
+<form>
+    <p>Dropdown List box</p>
+    <select name="devices" size="5" multiple="multiple">
+        <option value="samsung">Samsung</option>
+        <option value="Iphone">Iphone</option>
+        <option value="Computer">Computer</option>
+        <option value="PC">PC</option>
+    </select>
+</form>
+
+<form method="post">
+    <p>Uppload Song</p>
+    <input type="file" name="user-song" />
+    <br />
+    <input type="submit" value="upload" />
+</form>
+
+<form>
+    <p>Subscribe Bucko</p>
+    <input type="text" name="email">
+    <input type="submit" name="subscribe">
+</form>
+
+<form>
+    <p>Subscribe but with an image</p>
+    <input type="text" name="email">
+    <input type="image" src="Assets/Images/download.png" width="100" height="50"/>
+</form>
+
+<form>
+    <button><img src="./Assets/Images/AddButton.png" width="20" height="20">Add</button>
+    <input type="hidden" name="bookmark" value="page">
+</form>
+<!--Page 164 Last -->
 </body>
 </html> 
