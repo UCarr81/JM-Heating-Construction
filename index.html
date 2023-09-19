@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!DOCTYPE html>  <!--Tells the browser which version of HTML it is using-->
+<html lang="en-US">  <!--What language the HTML is in-->
     
 <head>
     <meta charset="UTF-8">
@@ -197,6 +197,57 @@ th means Table Heading-->
     <button><img src="./Assets/Images/AddButton.png" width="20" height="20">Add</button>
     <input type="hidden" name="bookmark" value="page">
 </form>
-<!--Page 164 Last -->
+
+<br />
+<br />  
+
+<label>Age: <input type="text"name="age"/></label>
+<br />
+<p>Gender:
+<input id="Female" type="radio" name="gender"/>Female
+<input id="Male" type="radio" name="gender"/>Male
+</p>
+
+
+<!--Fildset is an invisbile box legend is the visible line-->
+<fieldset>
+    <legend>Contact Details</legend>
+    <label>Email: <br />
+    <input type="text" name="email"/></label> <br />
+    <label>Phone: <br />
+    <input type="text" name="phone"></label> <br />
+    <label>Name: <br />
+    <input type="text" name="name"/></label> <br />
+</fieldset>
+
+<br />
+<br />
+<br />
+
+<!--Requires is excatly what it sound like. "No input, no submit"-->
+<form>
+    <label for="username">Username</label>
+    <input type="text" name="username" required="required"/> </br />
+    <label for="password">Password</label>
+    <input type="password" name="password" required="required"/>
+    <input type="submit" value="submit"/>
+</form>
+<br />
+<br />
+<br />
+<form method="post">
+    <label for="username">Current Date:</label>
+    <input type="date" name="date">
+    <input type="submit" value="submit">
+</form>
+<br />
+<br />
+<br />
+
+<!--To Speed things up there are other varies of forms in which the current User is already aware of simply change the input type="" Into one of the following. email, url, search or along with being able to use a placeholder apply next to input and write a message in which you would like to display-->
+
+<iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=moma+new+york&amp;output=embed"></iframe>
+
+<!--And witht that being said HTML Is done there is a little bit more like flash videos and audios in which I don't belive I will be exploring but if interested pages 200-226-->
 </body>
-</html> 
+</html>     
