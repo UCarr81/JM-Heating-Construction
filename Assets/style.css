@@ -1,0 +1,139 @@
+:root {
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.phScale {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 20px;
+}
+
+.phScale h2 {
+    background-color: rgb(177, 177, 177);
+    color: black;
+    padding: 25px;
+}
+
+p {
+    padding: 5px;
+    margin: 0;
+    font-size: larger;
+
+}
+
+.fourteen {
+background-color: blue;
+}
+
+.thirteen {
+    background-color: rgb(32, 32, 255);
+}
+
+.twelve {
+    background-color: rgb(50, 50, 255);
+}
+
+.eleven {
+    background-color: rgb(68, 68, 255);
+}
+
+.ten {
+    background-color: rgb(86, 86, 255);
+}
+
+.nine {
+    background-color: rgb(103, 103, 255);
+}
+.eight {
+    background-color: rgb(123, 123, 255);
+}
+
+.seven {
+    background-color: rgb(55, 163, 61);
+}
+
+.six {
+    background-color: rgb(255, 132, 193);
+}
+
+.five {
+    background-color: rgb(255, 119, 187);
+}
+
+.four {
+    background-color: rgb(255, 106, 181);
+}
+
+.three {
+    background-color: rgb(255, 88, 171);
+}
+
+.two {
+    background-color: rgb(253, 65, 159);
+}
+
+.one {
+    background-color: rgb(255, 33, 144);
+}
+
+.zero {
+    background-color: rgb(255, 0, 128);
+}
+
+.pt {
+    margin: 0;
+    color: rgb(151, 7, 7);
+    font-weight: 600;
+}
+
+.pt8 {
+    font-size: 8pt;
+
+}
+
+.pt9 {
+    font-size: 9pt;
+}
+
+.pt10 {
+    font-size: 10pt;
+}
+
+.pt11 {
+    font-size: 11pt;
+}
+
+.pt12 {
+    font-size: 12pt;
+}
+
+.pt14 {
+    font-size: 14pt;
+}
+
+.pt18 {
+    font-size: 18pt;
+}
+
+.pt24 {
+    font-size: 24pt;
+}
+
+.pt36 {
+    font-size: 36pt;
+}
+
+.pt48 {
+    font-size: 48pt;
+}
+
+.pt60 {
+    font-size: 60pt;
+}
+
+.pt72 {
+    font-size: 72pt;
+}
